@@ -1,0 +1,10 @@
+def fact():
+	n = int(input("Введите число: "))
+  if type(x) not in [int, float] or type(y) not in [int, float]:
+    	raise TypeError
+	factorial = 1
+	for i in range(2, n + 1):
+		factorial *= i
+	return factorial
+
+print(fact())
