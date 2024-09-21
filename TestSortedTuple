@@ -1,0 +1,12 @@
+import unittest
+from sortedTuple import *
+
+class TestSortedTuple(unittest.TestCase):
+
+    def test_values(self):
+        self.assertRaises(TypeError, SortedTuple, "")
+        self.assertRaises(TypeError,6)
+        self.assertRaises(TypeError, SortedTuple, None)
+
+    if __name__ == '__main__':
+        unittest.main()
